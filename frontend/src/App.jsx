@@ -1,12 +1,13 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-// import Home from './components/Home'
 
 function App() {
 
   return (
     <>
-      <div className="text-center text-white bg-orange-500 p-4">
+      <div className="text-center p-4">
         Home
+        <Outlet />
       </div>
     </>
   )
